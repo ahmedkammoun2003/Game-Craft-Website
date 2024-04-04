@@ -7,6 +7,9 @@ import Footer from './components/Footer'
 import News from './components/News'
 import Program from './components/Program'
 import styles from "./style";
+import Sponsors from './components/Sponsors'
+import Hero from './components/Hero'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
     <div className={` ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Header/>
+        <Hero/>
+        <Counter/>
       </div>
     </div>
     <div className={`${styles.flexStart}`}>
@@ -27,6 +32,7 @@ function App() {
       <Program/>
       <AboutUs/>
       <ContactUs/>
+      <Sponsors/>
       <Footer/>
       </div>
     </div>

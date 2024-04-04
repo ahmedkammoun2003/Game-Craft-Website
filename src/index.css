@@ -33,6 +33,51 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+.text-gradient-orange {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #FFA500 0.89%,
+    #FF8C00 17.23%,
+    #FF7F50 42.04%,
+    #FF6347 55.12%,
+    #FFD700 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.text-gradient-pink {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #FFC0CB 0.89%,
+    #FFB6C1 17.23%,
+    #FF69B4 42.04%,
+    #DB7093 71.54%,
+    #C71585 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.text-gradient-orange-pink {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #FFA500 0.89%,
+    #FF8C00 17.23%,
+    #FF69B4 42.04%,
+    #FF1493 55.12%,
+    #DB7093 71.54%,
+    #C71585 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
 
 .bg-blue-gradient {
   background: linear-gradient(
@@ -43,6 +88,15 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+
+.bg-orange2-gradient {
+  background: linear-gradient(
+    120deg,
+    #FFA500 0%,
+    #FF8C00 50%,
+    #FF7F50 100%
   );
 }
 

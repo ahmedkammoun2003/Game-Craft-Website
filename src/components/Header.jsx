@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "../style";
-import { close, logo, menu } from "../assets";
+import { close, logogamecraft, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <nav className="w-full flex py-8 px-7  justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logogamecraft} alt="hoobank" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
